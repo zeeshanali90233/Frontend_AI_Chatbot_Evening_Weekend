@@ -1,0 +1,5 @@
+1) Calculate user age from birth year , plus 20 to it , * 5 to it and then console the result 
+
+2) alert to user that welcome to your site
+
+3) take user name from user dynamically 
