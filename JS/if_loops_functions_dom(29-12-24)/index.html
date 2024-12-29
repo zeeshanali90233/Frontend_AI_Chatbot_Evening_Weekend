@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // = is used for asigning right hand side value to left hand side
+      //  == is used for checking if left hand side value is equals to right hand side value
+      //   Else when all above conditions become false
+
+      let age = 20;
+
+      //   Conditional Statements
+      if (age >= 18) {
+        alert("Yes You are Above 18");
+      } else {
+        alert("YOu are below 18");
+      }
+
+      let userChoosedOption = prompt("Choose a Option");
+      console.log(userChoosedOption);
+
+      if (userChoosedOption == "A") {
+        console.log(2 + 2);
+      } else if (userChoosedOption == "B") {
+        console.log(2 * 2);
+      } else if (userChoosedOption == "C") {
+        console.log(2 / 2);
+      } else {
+        console.log("You entered a wrong option");
+      }
+
+      // String Datatype
+      let num1 = prompt("Enter first value: ");
+      let num2 = prompt("Enter second value: ");
+
+      // Type Casting : to convert data from one datatype to another
+      // Integer Datatype
+      num1 = Number(num1);
+      num2 = Number(num2);
+
+      let selectedChoice = prompt(
+        "Enter the operator for calculation, +,-,*,/"
+      );
+
+      if (selectedChoice == "+") {
+        console.log(num1 + num2);
+      } else if (selectedChoice == "*") {
+        console.log(num1 * num2);
+      } else if (selectedChoice == "/") {
+        console.log(num1 / num2);
+      } else if (selectedChoice == "-") {
+        console.log(num1 - num2);
+      } else {
+        console.log("Invalid Input");
+      }
+
+     
+    </script>
+  </body>
+</html>

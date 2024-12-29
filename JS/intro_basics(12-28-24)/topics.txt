@@ -1,0 +1,10 @@
+- Intro to JS
+- History of JS
+- Alert
+- Console
+- Browser Inspect
+- Variables
+- Mathamatical Operations
+- Prompt -> To take input from user
+- data types
+- variable rules
