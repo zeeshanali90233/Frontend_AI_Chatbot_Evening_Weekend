@@ -4,11 +4,4 @@
     if else if else
     nested if
 - Loop Statements 
-    while
-    do while
     for
-- Functions
-    - Declaration
-    - Definition
-    - Paramerters
-    - Return Statements
