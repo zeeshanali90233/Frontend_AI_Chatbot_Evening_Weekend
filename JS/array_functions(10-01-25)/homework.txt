@@ -1,18 +1,44 @@
-    1. Objects: Library System
-        Task: Create a simple object that represents a book in a library.
-        The object should have the following properties: title, author, year, and available (true/false).
-        Create a function borrowBook that marks the book as unavailable and a function returnBook that marks it as available.
-        Print out the book's details before and after borrowing/returning it.
-        Hint: Use object methods to define borrowBook and returnBook.
-        
-    2. Arrays & Loops: Student Management
-    Task: Create an array of objects where each object represents a student.
-        Each student object should have properties: name, age, and grade.
-        Write a function getTopStudents that filters and returns the students who have a grade of 85 or higher.
-        Write a function averageGrade that calculates and returns the average grade of all students.
-        Test the functions by creating an array of 5 students with different grades and printing the top students and the average grade.
-        Hint: Use array methods like filter and reduce for filtering and calculating the average.
-    
-    3. Make a toggle theme site, consists of one button that can switch between dark and light theme
+1) Create and Modify an Array
 
-    4. COnvert all above code in modular way, like making functions aadding comments
+    Create an array of your favorite fruits.
+    Add two more fruits to the end of the array using .push().
+    Remove the first fruit using .shift().
+
+2) Accessing Array Elements
+
+    Create an array of five numbers.
+    Print the second and fourth elements to the console.
+    Replace the third element with a new number.
+
+3) Array Length
+
+    Create an array of six random words.
+    Print the length of the array to the console.
+    Add a new word to the array and check the updated length.
+
+4) Combine Two Arrays
+
+    Create two arrays: one for your favorite books and another for your favorite movies.
+    Combine them into a single array using the .concat() method.
+
+5) Simple Function with Parameters
+
+    Write a function called greetUser that takes a name as a parameter and prints a greeting (e.g., "Hello, [Name]!").
+
+6) Function with Return Value
+
+    Write a function addNumbers that takes two numbers as parameters, adds them together, and returns the result.
+    Test the function with two sets of numbers.
+
+7) Default Parameters in Functions
+
+    Write a function calculatePrice that takes two arguments: price and tax rate (default to 10%).
+    Return the total price after applying the tax.
+
+8) Reversing an Array
+
+    Create an array of five numbers.
+    Reverse the array using .reverse() and print the result.
+
+9) Write a function sumArray that takes an array of numbers as a parameter.
+    Use a for loop to calculate the sum of all elements in the array and return it.
