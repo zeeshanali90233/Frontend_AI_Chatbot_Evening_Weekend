@@ -1,0 +1,4 @@
+1) Make an Form as in : https://mabsoltech.com/contact also submit the form 
+and console all the added value by getting it through DOM
+
+2) Study about objects in JS before next class
