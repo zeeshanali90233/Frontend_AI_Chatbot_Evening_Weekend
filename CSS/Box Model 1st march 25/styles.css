@@ -1,0 +1,43 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+
+  /* 1 for all side , x and y axis */
+
+  /* Y Axis */
+  overflow-y: auto;
+
+  /* X Axis */
+  overflow-x: auto;
+  overflow: scroll;
+}
+.box1 {
+  min-width: 100px;
+  max-width: 100%;
+
+  min-height: 100px;
+  max-height: 250px;
+  background-color: red;
+  overflow-y: auto;
+  /* Borders to all sides*/
+
+  border-color: green;
+  border-width: 10px;
+  border-style: ridge;
+  /* 
+  border-left-color: green;
+  border-left-width: 10px;
+  border-left-style: solid;
+
+  border-right-color: black;
+  border-right-width: 8px;
+  border-right-style: dotted; */
+
+
+  /* Box Model */
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
