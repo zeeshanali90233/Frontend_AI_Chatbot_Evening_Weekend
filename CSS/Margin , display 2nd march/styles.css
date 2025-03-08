@@ -1,0 +1,23 @@
+.red {
+  width: 300px;
+  height: 100px;
+  background-color: red;
+}
+.blue {
+  width: 300px;
+  height: 100px;
+  background-color: blue;
+  /* padding-top: 10px; */
+  /* margin-top: 10px; */
+}
+
+/* Display Model */
+
+.container {
+  /* By Default Block */
+
+  display: flex;
+  flex-wrap: wrap;
+  /* Y X */
+  gap: 10px 0px;
+}
