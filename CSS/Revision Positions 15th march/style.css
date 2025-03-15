@@ -1,0 +1,24 @@
+.grocery-items {
+  list-style-type: upper-roman;
+}
+
+/* 5 Types of Positions */
+/* Default Position: Static */
+/* Top, left, bottom, right NO NO NO NO NO */
+
+
+.parent {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    background-color: red;
+}
+
+.container {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
