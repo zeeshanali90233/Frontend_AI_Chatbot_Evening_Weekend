@@ -8,7 +8,15 @@
   <body>
     <h1>HTML Forms</h1>
 
-    <form>
+    <form onsubmit="submitList(); return false;">
+      <select name="groceryList" id="groceryList" required>
+        <option value="">---SELECT ITEM---</option>
+        <option value="food">Food</option>
+        <option value="hi"></option>
+        <option value="2">Roaming</option>
+        <option value="computerscience">IT</option>
+      </select>
+
       <label for="userName">Name*</label>
 
       <input
@@ -18,7 +26,6 @@
         name="userName"
         minlength="3"
         maxlength="50"
-        required
       />
 
       <label for="password">Password*</label>
@@ -28,7 +35,6 @@
         class="password"
         name="password"
         minlength="3"
-        required
       />
 
       <label for="age">Age*</label>
@@ -39,7 +45,6 @@
         name="age"
         min="7"
         max="100"
-        required
       />
 
       <label for="male">Male</label>
@@ -81,5 +86,12 @@
     <input type="tel" />
     <input type="url" />
     <input type="week" />
+
+    <script>
+      function submitList() {
+        const groceryRef = document.querySelector("#groceryList");
+        alert(groceryRef.value);
+      }
+    </script>
   </body>
 </html>
